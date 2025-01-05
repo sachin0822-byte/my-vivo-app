@@ -1,0 +1,63 @@
+mvn -version
+sudo yum install maven
+mvn archetype:generate -DgroupId=com.vivo.app -DartifactId=my-vivo-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+ls
+cd my-vivo-app
+ls
+vim pom.xml
+mvn package
+ls
+cd target
+ls
+java -cp target/my-vivo-app-1.0-SNAPSHOT.jar com.vivo.app.App
+ls
+cd test-classes/com/vivo/app/
+ls
+cd ..
+ls
+cd target
+cd my-vivo-app
+ls
+cd ..
+ls
+java -cp target/my-vivo-app-1.0-SNAPSHOT.jar com.vivo.app.App
+cd my-vivo-app
+cd ..
+java -cp target/my-vivo-app-1.0-SNAPSHOT.jar com.vivo.app.App
+ls
+cd src/
+ls
+cd src/main/java/com/vivo/app/App.java
+cd src/
+ls
+cd main
+ls
+cd java
+ls
+cd com
+ls
+cd vivo
+ls
+cd app
+ls
+cd app.java
+cd App.java
+ls
+vim App.java
+java -cp target/my-vivo-app-1.0-SNAPSHOT.jar com.vivo.app.App
+cd my-vivo-app
+cd ..
+java -cp target/my-vivo-app-1.0-SNAPSHOT.jar com.vivo.app.App
+mvn package
+java -cp target/my-vivo-app-1.0-SNAPSHOT.jar com.vivo.app.App
+mvn clean install
+cd ..
+ls
+ls -la
+cd .m2
+ls
+cd repository
+ls
+cd ..
+ls
+
